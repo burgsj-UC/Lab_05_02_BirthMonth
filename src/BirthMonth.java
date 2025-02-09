@@ -10,6 +10,7 @@ public class BirthMonth {
 
         if (in.hasNextInt()) {
             birthMonth = in.nextInt();
+            in.nextLine();
             if ((birthMonth <= 12) && (birthMonth >= 1)) {
                 System.out.print("Your birth month is: " + birthMonth);
             } else {
